@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "keybindprofiles",
+  "version": "${version}",
+  "name": "Keybind Profiles",
+  "description": "Create, switch, import and export client-side keybind profiles.",
+  "authors": ["Swegbu"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.swegbu.keybindprofiles.KeybindProfilesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": ">=0.152.0"
+  }
+}
